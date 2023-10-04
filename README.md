@@ -35,3 +35,7 @@ This is the Cart Page to view the items added to cart.
 * HTML, CSS, Javascript
 * Java
 
+# Code to compile the java files
+javac -cp  lib/servlet-api.jar -d webapps/catalog/WEB-INF/classes webapps/catalog/WEB-INF/src/*.java
+
+
